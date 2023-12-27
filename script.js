@@ -53,3 +53,26 @@ function goTown() {
   function goStore() {
    update(locations[1]);
 }
+
+function goCave() {
+    console.log("Going to cave.");
+  }
+  
+  function fightDragon() {
+    console.log("Fighting dragon.");
+  }
+  
+  function buyHealth() {
+  
+  }
+  
+  function buyWeapon() {
+  
+  }
+  
+  function fightSlime() {
+
+  }
+  function fightBeast() {
+    
+  }
