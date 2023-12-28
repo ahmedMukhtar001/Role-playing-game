@@ -71,7 +71,8 @@ function goCave() {
   }
   
   function buyHealth() {
-    gold: gold = gold - 10;
+    gold = gold - 10;
+    health = health + 10;
   }
   
   function buyWeapon() {
