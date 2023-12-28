@@ -75,6 +75,9 @@ function goCave() {
     health += 10;
     goldText.innerText = gold;
     healthText.innerText = health;
+    if ("condition") {
+        
+    }
   }
   
   function buyWeapon() {
