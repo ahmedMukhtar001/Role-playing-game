@@ -102,10 +102,11 @@ function goCave() {
   function buyWeapon() {
     if (gold >= 30) {
       gold -= 30;
-      currentWeapon ++;
+      currentWeapon++;
+      goldText.innerText = gold;
+      text.innerText = "You now have a new weapon.";
     }
   }
-
   function fightSlime() {
 
   }
