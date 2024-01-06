@@ -105,7 +105,8 @@ function goCave() {
       currentWeapon++;
       goldText.innerText = gold;
       let newWeapon = weapons[currentWeapon].name;
-      text.innerText = "You now have a new weapon.";
+      text.innerText = "You now have a " + newWeapon + ".";
+      inventory.push(newWeapon)
     }
   }
   function fightSlime() {
