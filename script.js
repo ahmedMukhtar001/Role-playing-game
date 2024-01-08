@@ -99,7 +99,7 @@ function goCave() {
     }
   }
   
-  if (currentWeapon < weapons.length) {
+  if (currentWeapon < weapons.length -1) {
     function buyWeapon() {
       if (gold >= 30) {
         gold -= 30;
