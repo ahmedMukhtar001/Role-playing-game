@@ -113,6 +113,8 @@ function goCave() {
       }
     }else {
       text.innerText = "You already have the most powerful weapon!"
+      button2.innerText = "Sell weapon for 15 gold"
+      button2.onclick = sellWeapon
     }
   }
   function fightSlime() {
