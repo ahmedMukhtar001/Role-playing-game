@@ -152,3 +152,6 @@ function goCave() {
   function fightBeast() {
     
   }
+  function fightDragon() {
+    console.log("Fighting dragon.");
+  }
