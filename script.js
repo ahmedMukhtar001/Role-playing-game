@@ -162,3 +162,9 @@ function goCave() {
   function goFight() {
   
   }
+  function attack(){
+  
+  }
+  function dodge() {
+  
+  }
