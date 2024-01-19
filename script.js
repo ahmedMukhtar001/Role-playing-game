@@ -166,7 +166,8 @@ function goCave() {
     goFight();
   }
   function goFight() {
-    update(locations[3])
+    update(locations[3]);
+    monsterHealth = monsters[fighting].health;
   }
   function attack(){
   
