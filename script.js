@@ -173,7 +173,7 @@ function goCave() {
     monsterHealthText.innerText = monsters[fighting].health;
   }
   function attack(){
-  
+    text.innerText = "The " + monsters[fighting].name + " attacks.";
   }
   function dodge() {
   
