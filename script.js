@@ -174,6 +174,7 @@ function goCave() {
   }
   function attack(){
     text.innerText = "The " + monsters[fighting].name + " attacks.";
+    attack(monster_name)
   }
   function dodge() {
   
