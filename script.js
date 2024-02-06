@@ -172,10 +172,9 @@ function goCave() {
     monsterName.innerText = monsters[fighting].name;
     monsterHealthText.innerText = monsters[fighting].health;
   }
-  function attack(){
+  function attack() {
     text.innerText = "The " + monsters[fighting].name + " attacks.";
-    attack(monster_name)
-    text.innerText += "You attack it with your " + weapons[currentWeapon].name + " .";
+    text.innerText += " You attack it with your " + weapons[currentWeapon].name + ".";
   }
   function dodge() {
   
